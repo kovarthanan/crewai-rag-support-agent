@@ -1,0 +1,16 @@
+[theme]
+base = "light"
+primaryColor = "#7C3AED"              # violet-600
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F3FF"  # violet-50
+textColor = "#1E1B4B"                 # indigo-950
+font = "sans serif"
+
+[client]
+toolbarMode = "viewer"     # hides Deploy / developer menu for end users
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
